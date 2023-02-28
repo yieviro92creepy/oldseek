@@ -6,7 +6,7 @@ local entityTable = Spawner.createEntity({
 
     CustomName = "Old Seek", -- Custom name of your entity
 
-    Model = "https://github.com/RegularVynixu/Utilities/blob/main/Doors%20Entity%20Spawner/Models/Rush.rbxm?raw=true", -- Can be GitHub file or rbxassetid
+    Model = "11636293930"-- Can be GitHub file or rbxassetid
 
     Speed = 100, -- Percentage, 100 = default Rush speed
 
@@ -14,13 +14,13 @@ local entityTable = Spawner.createEntity({
 
     HeightOffset = 0,
 
-    CanKill = true,
+    CanKill = false,
 
     KillRange = 50,
 
     BackwardsMovement = false,
 
-    BreakLights = true,
+    BreakLights = false,
 
     FlickerLights = {
 
@@ -64,7 +64,7 @@ local entityTable = Spawner.createEntity({
 
             Sound1 = {
 
-                10483790459, -- SoundId
+                0, -- SoundId
 
                 { Volume = 0.5 }, -- Sound properties
 
